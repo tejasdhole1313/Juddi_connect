@@ -11,7 +11,7 @@ export default function BusinessTravel() {
     description:
       "Whether you are travelling for business, or pampering your guests, we offer comprehensive travel & stay packages that suits every destination, mood and budget.",
     button: "View Services",
-    href: "",
+    href: "/business-travel#servises",
     backgroundImage: "/Images/travelbg1.jpg",
   };
 
@@ -33,7 +33,7 @@ export default function BusinessTravel() {
     description:
       "At Juddi Connect, we have understood the pain points of corporate traveling, and it starts with getting the best flights at the best rates, and the shortest notice. Visa approvals? Our team will get you the best of both worlds, all you have to do is, call us!",
     buttonText: "Contact Us",
-    buttonLink: "#",
+    buttonLink: "#about",
     bgImage: "/Images/traveler2.jpg",
   };
 
@@ -42,7 +42,7 @@ export default function BusinessTravel() {
     description:
       "After cracking that meeting, or nailing that project presentation, unwinding becomes necessary. We make sure that you go to bed in an accommodation worthy of your day.",
     button: "Enquire Now",
-    href: "",
+    href: "#about",
     backgroundImage: "/Images/travelbg2.jpg",
   };
 

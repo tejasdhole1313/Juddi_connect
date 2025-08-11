@@ -142,12 +142,13 @@ export default function TravelHeader() {
             }
             alt="Logo"
             className="w-full h-auto"
+            style={{ height: 'auto' }}
             priority
           />
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-4 space-x-6 relative">
+        <nav className="hidden md:flex gap-4 space-x-6 relative font-semibold">
           {["Home", "About Us", "Services", "Contact Us"].map((text, idx) => {
             const href = ["#hero", "#about", "#servises", "#about"][idx];
             return (
@@ -179,7 +180,7 @@ export default function TravelHeader() {
       {menuOpen && (
         <nav
           ref={mobileMenu}
-          className="md:hidden mt-4 flex flex-col space-y-4 text-left bg-white text-black p-4 rounded"
+          className="md:hidden mt-4 flex flex-col space-y-4 text-left bg-white text-black p-4 rounded font-semibold"
         >
           {["Home", "About Us", "Services", "Contact Us"].map((text, idx) => {
             const href = ["#hero", "#about", "#servises", "#about"][idx];

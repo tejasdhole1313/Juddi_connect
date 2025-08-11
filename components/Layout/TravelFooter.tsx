@@ -17,6 +17,7 @@ export default function TravelFooter() {
               height={100}
               src="/Images/Juddi Connect Final Logo(White).png"
               alt="Logo"
+              style={{ width: 'auto', height: 'auto' }}
             />
           </Link>
 
@@ -27,19 +28,20 @@ export default function TravelFooter() {
               <div className="flex items-center justify-start space-x-3">
                 <Mail className="w-5 h-5 text-[#7291CA]" />
                 <a
-                  href="mailto:support@flynstays.com"
+                  href="mailto:info@juddiconnect.com"
                   className="hover:text-orange-500 transition-colors"
                 >
-                  email@gmail.com
+                  info@juddiconnect.com
                 </a>
               </div>
               <div className="flex items-center justify-start space-x-3">
                 <Phone className="w-5 h-5 text-[#7291CA]" />
                 <a
-                  href="tel:+97105659111160"
+                  href="tel:+447368300597"
                   className="hover:text-orange-500 transition-colors"
                 >
-                  +91 1234567890
+                   +44 7368 300597<br/>
+                   +44 7480 248361
                 </a>
               </div>
             </div>
@@ -52,19 +54,20 @@ export default function TravelFooter() {
               <div className="flex items-center justify-start space-x-3">
                 <Mail className="w-5 h-5 text-[#7291CA]" />
                 <a
-                  href="mailto:sales@flynstays.com"
+                  href="mailto:info@juddiconnect.com"
                   className="hover:text-orange-500 transition-colors"
                 >
-                  email@gmail.com
+                  info@juddiconnect.com
                 </a>
               </div>
               <div className="flex items-center justify-start space-x-3">
                 <Phone className="w-5 h-5 text-[#7291CA]" />
                 <a
-                  href="tel:+97105540663064"
+                  href="tel:+447368300597"
                   className="hover:text-orange-500 transition-colors"
                 >
-                  +91 1234567890
+                +44 7368 300597 <br/>
+                +44 7480 248361
                 </a>
               </div>
             </div>

@@ -42,8 +42,8 @@ export default function ServicesSection() {
   <div className="absolute inset-0 z-0 bg-center bg-cover" />
   <div className="absolute inset-0 z-0 bg-center bg-cover" style={{ backgroundImage: "url('/Images/02.jpg')" }} />
       {/* Light overlay for soft shadow effect */}
-  <div className="absolute inset-0 z-10 bg-black/20" />
-      <div className="relative z-20 max-w-7xl mx-auto space-y-8">
+  <div className="absolute  bg-black/20" />
+      <div className="relative  max-w-7xl mx-auto space-y-8">
         {/* Section Header */}
         <div className="space-y-8 text-left">
           <motion.h2
@@ -79,7 +79,7 @@ export default function ServicesSection() {
                 ease: "easeOut",
               }}
               key={index}
-              className="flex flex-col items-center justify-between rounded-3xl shadow-md transition-all duration-500 ease-in-out bg-white hover:shadow-lg hover:scale-105 group space-y-4 p-6 min-h-[340px] cursor-pointer border-2 border-transparent hover:border-[#34618B]"
+              className="flex flex-col items-center  rounded-3xl shadow-md transition-all duration-500 ease-in-out bg-white hover:shadow-lg hover:scale-105 group space-y-4 p-4 min-h-[340px] cursor-pointer border-2 border-transparent hover:border-[#34618B]"
             >
 
               {/* Service Icon */}
@@ -116,10 +116,10 @@ export default function ServicesSection() {
               </div>
 
               {/* Know More Link */}
-              <button className="mt-4 font-medium text-[#34618B] transition-all duration-500 flex items-center justify-center group cursor-pointer hover:text-[#1a3550]">
+              {/* <button className="mt-4 font-medium text-[#34618B] transition-all duration-500 flex items-center justify-center group cursor-pointer hover:text-[#1a3550]">
                 <span className="mr-1 group-hover:translate-x-1 transition-transform duration-500">▶</span>
                 <span className="group-hover:underline">Know More</span>
-              </button>
+              </button> */}
             </motion.div>
           ))}
         </div>

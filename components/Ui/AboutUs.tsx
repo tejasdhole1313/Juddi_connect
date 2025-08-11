@@ -38,21 +38,21 @@ export default function AboutUs() {
             {/* Social Media Icons */}
             <div className="flex justify-center items-center gap-6 w-fit">
               <Link
-                href="#"
+                href="https://www.instagram.com/"
                 className="text-white hover:text-[#34618B] transition-colors"
               >
                 <Instagram size={24} />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                href="#"
+                href="https://www.facebook.com/"
                 className="text-white hover:text-[#34618B] transition-colors"
               >
                 <Facebook size={24} />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
-                href="#"
+                href="https://x.com/"
                 className="text-white hover:text-[#34618B] transition-colors"
               >
                 <Twitter size={24} />
@@ -60,7 +60,7 @@ export default function AboutUs() {
               </Link>
             </div>
           </div>
-          <div className="space-y-4 p-4 z-2 bg-white">
+          <div className="space-y-4 p-8 z-2 bg-white rounded-3xl shadow-lg">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight font-ubuntu">
               How can I help?
             </h2>

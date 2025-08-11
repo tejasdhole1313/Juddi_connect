@@ -11,7 +11,7 @@ export default function PersonalTravel() {
     description:
       "Your best holiday is yet to come And like the many that traveled this road before you, this is going to be memorable. Welcome to Juddi Connect !",
     button: "View Services",
-    href: "",
+    href: "/personal-travel#servises",
     backgroundImage: "/Images/travelbg3.jpg",
   };
 
@@ -20,7 +20,7 @@ export default function PersonalTravel() {
     description:
       "The world is a wonderful place, but have you seen it all? Our travel package portfolio is filled with experiences and destinations that will blow your mind, and leave you wanting for more!",
     button: "Enquire Now",
-    href: "",
+    href: "#about",
     backgroundImage: "/Images/travelbg4.jpg",
   };
 
@@ -42,7 +42,7 @@ export default function PersonalTravel() {
     description:
       "We have an exhaustive list of hospitality partners across destinations that will sort you out with best deals for the the best views. No vacation is complete without a bed that will accept you as their own!",
     buttonText: "Contact Us",
-    buttonLink: "#",
+    buttonLink: "#about",
     bgImage: "/Images/traveler4.jpg",
   };
 
