@@ -78,6 +78,7 @@ export default function DetailsSection2({
             src={detailContent.bgImage}
             alt="Section visual"
             fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover w-full h-full shadow-lg"
           />
         </motion.div>
