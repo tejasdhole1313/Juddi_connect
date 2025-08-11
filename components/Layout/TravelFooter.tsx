@@ -13,11 +13,11 @@ export default function TravelFooter() {
           {/* Logo Section */}
           <Link href="/" className="flex items-center justify-start">
             <Image
-              width={200}
-              height={100}
+              width={180}
+              height={60}
               src="/Images/Juddi Connect Final Logo(White).png"
               alt="Logo"
-              style={{ width: 'auto', height: 'auto' }}
+              style={{ height: 'auto', width: 'auto' }}
             />
           </Link>
 
